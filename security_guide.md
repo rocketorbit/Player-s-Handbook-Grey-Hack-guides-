@@ -6,6 +6,7 @@
 ### This guide
 ### A text file on your real life computer, hereafter referred to the text file (You should keep any data outside the game)
 
+## Steps
 1. Start the game and begin with singleplayer. Finish tutorials and the first mission in it so that when you join multiplayer for the first time, you have gift.txt and hackshop ip instantly.
 2. Compile the following code as `passgen`, and run `passgen 15` to generate a 15 digit alphanumeric password. Copy the password to the text file.
 ```
