@@ -2,9 +2,9 @@
 
 **Home securing requires you to delete your current computer and start over, perform the following steps without any mistakes to maximize its effect. If you do not start over, your system may have already been backdoored and no securing can help. If you make any mistakes during the steps, you should also start over as it may also leave a backdoor. Follow the steps strictly and do not do any unnecessary operations, and you will be fine.**
 
-Things we need:
-1. This guide
-2. A text file on your real life computer, hereafter referred to the text file (You should keep any data outside the game)
+## Things we need:
+### This guide
+### A text file on your real life computer, hereafter referred to the text file (You should keep any data outside the game)
 
 1. Start the game and begin with singleplayer. Finish tutorials and the first mission in it so that when you join multiplayer for the first time, you have gift.txt and hackshop ip instantly.
 2. Compile the following code as `passgen`, and run `passgen 15` to generate a 15 digit alphanumeric password. Copy the password to the text file.
