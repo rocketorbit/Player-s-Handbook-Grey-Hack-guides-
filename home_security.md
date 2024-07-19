@@ -73,7 +73,7 @@ main
 10. Open Browser.exe, go to the hackshop you got from the script last step. Download metaxploit.so that we will need later. Then click on "credentials needed" missions, you want the one says "particular user", accept 8 of them.
 11. Use whois and Mail.exe social engineering to complete all of them.
 12. Again, you need to do this step quickly, preferably within a minute to reduce the chance of being found. After you finished all 8 missions, you should have enough money to pay for your own wifi. Now go to Browser.exe and search internet, go to a ISP and download ConfigLan.exe, after download buy the cheapest home network. For maximum security, do not set custom domain. After you have ConfigLan.exe downloaded and the home network purchased, open Mail.exe and connect to the wifi it sends you.
-13. **Warning: This step requires you to use a few of my services, a replacement step without using any assist will be very long as its own guide since it covers too many aspect.** Now you have your own wifi network, compile the following code as `secureHomeRouter` and run it as root. On success the script will delete itself and prints a success prompt. otherwise you need to contact me for help or to read the more detailed guide on how to do it yourself(TODO). This is the last step, once it shows success, you are secured.
+13. **Warning: This step requires you to use a few of my services, a replacement step without using any assist will be very long as its own guide since it covers too many aspect.** Now you have your own wifi network, compile the following code as `secureHomeRouter` and run it as root. On success the script will delete itself and prints a success prompt. otherwise you need to contact me for help or to read the more detailed guide on how to do it yourself(TODO). This is the last step, once it shows success, you are secured. **But do not leave yet, continue reading the precautions below.**
 ```
 if active_user != "root" then exit("Run as root.")
 shell = get_shell
@@ -309,3 +309,11 @@ main = function
 end function
 main
 ```
+
+## Things you should keep in mind after finishing all the steps:
+- After finishing the steps above, exposing yourself is no longer a problem. you can now use NPC websites like bank with no risk.
+- Do not start any service on your home pc, do not add any machines in your home network. They ruin the whole setup. Overall just do not change anything on your home network.
+- Do not run any close source software on your home pc. It can a virus or a backdoor.
+- Only use your permanent hackshop on your home pc, only use bank website on your home pc. Using permanent hackshop on insecure machine expose it, you may lose that hackshop. Using bank website leaves bank credential on the system, it is not a problem for your secured home pc, but it is a problem for insecure systems. **If your bank credential leaked, just follow the guide and reset. You can not change your bank password. Once you leak it the attacker always maintain control over your bank, and only reset will help.**
+- Always have enough money to renew the home network.
+- Last but not least, read my other guides.
